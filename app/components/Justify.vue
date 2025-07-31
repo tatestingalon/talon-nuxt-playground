@@ -1,5 +1,5 @@
 <template>
-  <p class="text-justify">
+  <div class="text-justify">
     <slot />
-  </p>
+  </div>
 </template>
