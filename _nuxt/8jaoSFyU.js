@@ -1,0 +1,1 @@
+import{_ as s,d as r,i as t,O as n}from"./DpFibH1i.js";const o={};function a(e,c){return t(),r("td",null,[n(e.$slots,"default")])}const d=Object.assign(s(o,[["render",a]]),{__name:"ProseTd"});export{d as default};

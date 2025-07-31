@@ -1,0 +1,1 @@
+import{_ as s,d as t,i as c,O as n}from"./DpFibH1i.js";const o={},a={class:"text-justify"};function r(e,_){return c(),t("div",a,[n(e.$slots,"default")])}const i=Object.assign(s(o,[["render",r]]),{__name:"Justify"});export{i as default};
