@@ -40,10 +40,12 @@ function getPathWithoutLanguage(path = route.path): string {
     <Container>
       <q-toolbar class="flex-wrap no-ellipsis">
         <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg">
-          </q-avatar>
-          <span class="q-ml-sm">Talon's Nuxt Playground</span>
+          <a href="/" class="site-title">
+            <q-avatar>
+              <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg">
+            </q-avatar>
+            <span class="q-ml-sm">Talon's Nuxt Playground</span>
+          </a>
         </q-toolbar-title>
         <q-tabs>
           <q-route-tab v-for="p in pages" v-bind:key="p.id" :to="p.path" class="q-mr-md">
@@ -67,9 +69,18 @@ function getPathWithoutLanguage(path = route.path): string {
   </q-header>
 </template>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .nav-header {
   background-color: hsl(206deg 47% 100% / 50%);
   backdrop-filter: blur(16px);
+}
+
+.site-title {
+  color: black;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 </style>
