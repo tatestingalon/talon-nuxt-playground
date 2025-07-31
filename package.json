@@ -15,5 +15,8 @@
     "nuxt": "^4.0.1",
     "nuxt-quasar-ui": "^2.1.13",
     "quasar": "^2.18.2"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.89.2"
   }
 }

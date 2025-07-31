@@ -6,35 +6,24 @@ const { data: page } = await useAsyncData('page-' + route.path, () => {
 })
 
 if (!page.value) {
-  throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
+  throw createError({ statusCode: 404, statusMessage: 'Seite nicht gefunden / Page not found', fatal: true })
 }
 </script>
 
 <template>
-  <q-layout view="hHh lpR fFf">
-    <!-- <HeaderComp
-      @updateAndReload="updateAndReload"
-      v-if="!$q.screen.lt.sm"
-      :update="update"
-    /> -->
-
-    <!-- <LeftDrawerComp
-      @updateAndReload="updateAndReload"
-      v-model="leftDrawerOpen"
-      :update="update"
-    /> -->
+  <q-layout view="hHh lpR fff">
+    <Header />
 
     <q-page-container>
-      <q-page class="q-pa-md row justify-center">
-        <!-- <RouterView /> -->
-        <ContentRenderer v-if="page" :value="page" />
+      <!-- <q-page class="q-pa-md row justify-center"> -->
+      <q-page class="q-py-xl">
+        <Container>
+          <!-- {{ page }} -->
+          <ContentRenderer v-if="page" :value="page" />
+        </Container>
       </q-page>
     </q-page-container>
 
-    <!-- <FooterComp
-      @toggleLeftDrawer="toggleLeftDrawer"
-      v-if="$q.screen.lt.sm"
-      :update="update"
-    /> -->
+    <Footer />
   </q-layout>
 </template>
