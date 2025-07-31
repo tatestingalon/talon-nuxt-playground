@@ -15,12 +15,8 @@ if (!page.value) {
     <Header />
 
     <q-page-container>
-      <!-- <q-page class="q-pa-md row justify-center"> -->
-      <q-page class="q-py-xl">
-        <Container>
-          <!-- {{ page }} -->
-          <ContentRenderer v-if="page" :value="page" />
-        </Container>
+      <q-page>
+        <ContentRenderer v-if="page" :value="page" class="text-body1" />
       </q-page>
     </q-page-container>
 

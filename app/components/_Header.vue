@@ -38,7 +38,7 @@ function getPathWithoutLanguage(path = route.path): string {
 <template>
   <q-header class="nav-header q-py-lg text-black" elevated>
     <Container>
-      <q-toolbar>
+      <q-toolbar class="flex-wrap no-ellipsis">
         <q-toolbar-title>
           <q-avatar>
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg">

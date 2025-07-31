@@ -3,6 +3,8 @@ name: About
 inNav: true
 ---
 
-# About Content Version 3
+::Container
+# About
 
-[Back home](/)
+One could write something here
+::

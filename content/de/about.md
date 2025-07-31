@@ -1,8 +1,10 @@
 ---
-name: Über uns
+name: Über
 inNav: true
 ---
 
-# Über uns
+::Container
+# Über diese Seite
 
-Über uns oder was auch immer bla bla
+Man könnte hier 'was schreiben
+::
