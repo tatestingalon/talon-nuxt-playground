@@ -88,4 +88,15 @@ Vestibulum mattis nibh et est ultrices posuere. Interdum et malesuada fames ac a
 
 Vivamus mollis, sem eu molestie semper, urna erat vulputate massa, nec volutpat est turpis at dui. Cras a nisl ut ex volutpat euismod. Aliquam vel egestas mauris. Pellentesque a volutpat lectus, eget feugiat risus. Praesent congue sem eget porttitor posuere. Aliquam mauris. 
 ::
+
+## Einfache Tabelle
+::center
+| Spalte 1 | Spalte 2 | Spalte 3 |
+| -------- | :------: | -------: |
+| Daten    |          |    Daten |
+| Daten    |          |    Daten |
+| Daten    |          |    Daten |
+| Daten    |          |    Daten |
+::
+
 ::

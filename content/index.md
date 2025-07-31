@@ -41,31 +41,26 @@ class: q-my-xl
 aaand some more content comes here
 
 ## Heading 2
-
 ::justify
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ::
 
 ### Heading 3
-
 ::justify
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ::
 
 #### Heading 4
-
 ::justify
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ::
 
 ##### Heading 5
-
 ::justify
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ::
 
 ###### Heading 6
-
 There are no more heading sizes after this.
 
 ::justify
@@ -88,4 +83,15 @@ Vestibulum mattis nibh et est ultrices posuere. Interdum et malesuada fames ac a
 
 Vivamus mollis, sem eu molestie semper, urna erat vulputate massa, nec volutpat est turpis at dui. Cras a nisl ut ex volutpat euismod. Aliquam vel egestas mauris. Pellentesque a volutpat lectus, eget feugiat risus. Praesent congue sem eget porttitor posuere. Aliquam mauris. 
 ::
+
+## Basic Table
+::center
+| Column 1 | Column 2 | Column 3 |
+| -------- | :------: | -------: |
+| Data     |          |     Data |
+| Data     |          |     Data |
+| Data     |          |     Data |
+| Data     |          |     Data |
+::
+
 ::

@@ -43,4 +43,14 @@ h6 {
   white-space: unset;
   overflow: unset;
 }
+
+table {
+  border: 2px solid rgb(140 140 140);
+
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+}
 </style>
