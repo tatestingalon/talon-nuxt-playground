@@ -1,0 +1,1 @@
+import{_ as e,N as o,i as n,w as s,O as r,ao as _,ap as c,aq as p}from"./cF1qZbNJ.js";const u={};function f(t,i){const a=p;return n(),o(a,_(c(t.$attrs)),{default:s(()=>[r(t.$slots,"default")]),_:3},16)}const d=Object.assign(e(u,[["render",f]]),{__name:"QButton"});export{d as default};

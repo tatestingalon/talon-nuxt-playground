@@ -1,1 +1,0 @@
-import{_ as s,d as t,i as c,O as n}from"./CXkVt1_7.js";const o={},a={class:"text-justify"};function r(e,_){return c(),t("p",a,[n(e.$slots,"default")])}const i=Object.assign(s(o,[["render",r]]),{__name:"Justify"});export{i as default};
